@@ -1,0 +1,217 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* oбщее */
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color: #f2f2f2;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* header */
+
+.header {
+  background-color: #ffffff;
+}
+
+.navigation-item {
+  list-style-type: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.navigation-link.button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  background-color: #756157;
+}
+
+.favorites-count {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #7db54f;
+}
+
+/* welcome */
+
+.welcome {
+  background-color: #6b8db1;
+  background-image: url("../images/welcome-background.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+/* advantages */
+
+.advantages {
+  text-align: center;
+}
+
+.advantages-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-item {
+  list-style-type: none;
+  background-color: #f0f6fa;
+}
+
+.advantages-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-item-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.advantages-dark .advantages-item-title {
+  color: #ffffff;
+}
+
+.advantages-item:nth-child(odd) {
+  background-color: #e6f0f6;
+}
+
+.advantages-item.advantages-dark {
+  background-color: #82b3d3;
+  color: #ffffff;
+}
+
+/* services */
+
+.services {
+  text-align: center;
+}
+
+.services-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services-item {
+  list-style-type: none;
+}
+
+.services-list li:nth-child(odd) {
+  background-color: #f0f6fa;
+}
+
+.services-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.services-item-description {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+/* search*/
+
+.search {
+  text-align: center;
+}
+
+.search-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.search-link.button {
+  font-size: 20px;
+  line-height: 36px;
+  text-decoration: none;
+  background-color: #756157;
+}
+
+/* footer */
+/* subscribe */
+
+.subscribe {
+  color: #ffffff;
+  text-align: center;
+  background-color: #6b8db1;
+  background-image: url("../images/subscribe.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+.subscribe-title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subscribe-button.button {
+  font-size: 20px;
+  line-height: 36px;
+  background-color: #82b3d3;
+}
+
+/* social */
+
+.social-item {
+  list-style-type: none;
+}
+
+.phone-number {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
