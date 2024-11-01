@@ -16,12 +16,28 @@
 
 /* oбщее */
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
   background-color: #f2f2f2;
+  min-height: 100%;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .button {
@@ -34,8 +50,24 @@ body {
 
 /* header */
 
-.header {
-  background-color: #ffffff;
+.navigation {
+  display: flex;
+  padding: 0 70px;
+}
+
+.navigation-logo {
+  margin-right: 30px;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 465px;
+}
+
+.navigation-user {
+  width: 315px;
+  margin-left: auto;
 }
 
 .navigation-item {
@@ -66,6 +98,12 @@ body {
   background-color: #7db54f;
 }
 
+/* main */
+
+.main-index {
+  flex-grow: 1;
+}
+
 /* welcome */
 
 .welcome {
@@ -74,6 +112,11 @@ body {
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover;
+}
+
+.welcome-img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* advantages */
@@ -90,9 +133,22 @@ body {
   text-transform: uppercase;
 }
 
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
 .advantages-item {
   list-style-type: none;
   background-color: #f0f6fa;
+  flex-grow: 1;
+  min-width: 400px;
+}
+
+.advantages-dark {
+  width: 100%;
 }
 
 .advantages-item-title {
@@ -135,8 +191,17 @@ body {
   text-transform: uppercase;
 }
 
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
 .services-item {
   list-style-type: none;
+  flex-grow: 1;
+  min-width: 400px;
 }
 
 .services-list li:nth-child(odd) {
@@ -177,7 +242,6 @@ body {
   background-color: #756157;
 }
 
-/* footer */
 /* subscribe */
 
 .subscribe {
@@ -203,15 +267,34 @@ body {
   background-color: #82b3d3;
 }
 
+/* footer */
+
+.footer {
+  display: flex;
+  padding: 0 70px;
+}
+
 /* social */
+
+.social-list {
+  width: 300px;
+  margin-right: 40px;
+  padding: 0;
+}
 
 .social-item {
   list-style-type: none;
 }
 
 .phone-number {
+  width: 720px;
   font-size: 40px;
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+}
+
+.developer {
+  width: 115px;
+  margin-left: auto;
 }
