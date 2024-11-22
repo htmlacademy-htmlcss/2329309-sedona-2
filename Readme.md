@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Дарья Валеева](https://up.htmlacademy.ru/htmlcss-individual/2/user/2329309).
-* Наставник: `Неизвестно`.
+* Наставник: [Виктория Никитина](https://htmlacademy.ru/profile/id1217273)
+* Проект: [Проект Седона](https://darrres.github.io/2329309-sedona-2/)
 
 ---
 
