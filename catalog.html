@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <title>Гостиницы</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="images/favicon.png">
   </head>
 
   <body>
     <div class="page-container">
-      <header class="header">
+      <header class="header" data-test="header">
         <nav class="navigation">
           <a class="navigation-logo" href="index.html">
             <img class="navigation-logo-img" src="images/logo.svg" alt="Логотип Седоны">
@@ -44,7 +45,7 @@
         </nav>
       </header>
 
-      <main class="main">
+      <main class="main" data-test="main">
         <div class="filter-container">
           <header class="main-header">
             <h1 class="catalog-title">Гостиницы Седоны</h1>
@@ -61,7 +62,7 @@
           </header>
           <section class="filter">
             <h2 class="visually-hidden">Фильтр гостиниц</h2>
-            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get" data-test="filter">
               <fieldset class="catalog-filter-group choice-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
@@ -142,7 +143,7 @@
             </form>
           </section>
         </div>
-        <section class="catalog">
+        <section class="catalog" data-test="catalog">
           <div class="filter-result">
             <p class="filter-result-count">Найдено гостиниц: 38</p>
             <select class="select" aria-label="Сортировка">
@@ -241,7 +242,7 @@
             </li>
           </ul>
         </section>
-        <section class="subscribe subscribe-catalog">
+        <section class="subscribe subscribe-catalog" data-test="subscribe">
           <h2 class="subscribe-title subscribe-title-catalog">Подпишитесь на рассылку</h2>
           <p class="subscribe-description">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -251,7 +252,7 @@
         </section>
       </main>
 
-      <footer class="footer">
+      <footer class="footer" data-test="footer">
         <section class="social">
           <h2 class="visually-hidden">Социальные сети</h2>
           <ul class="social-list">
