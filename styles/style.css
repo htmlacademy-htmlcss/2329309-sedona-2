@@ -223,7 +223,7 @@ body {
 }
 
 .advantages-text-wrapper {
-  max-width: 651px;
+  max-width: 655px;
   margin: 0 auto;
   padding: 67px 0 91px;
 }
@@ -672,7 +672,7 @@ body {
 .catalog-filter {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 70px;
+  column-gap: 30px;
 }
 
 .catalog-filter-group {
@@ -682,7 +682,7 @@ body {
 }
 
 .choice-group {
-  max-width: 145px;
+  width: 190px;
 }
 
 .catalog-filter-title {
@@ -762,7 +762,8 @@ body {
 }
 
 .catalog-range {
-  padding-left: 81px;
+  width: 288px;
+  padding-left: 71px;
 }
 
 .range-wrapper-inputs {
@@ -779,6 +780,13 @@ body {
   font-size: 18px;
   line-height: 24px;
   border: none;
+  appearance: textfield;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
 }
 
 .range-input:hover {
@@ -788,12 +796,6 @@ body {
 .range-input:focus {
   background-color: #e6e6e6;
   outline: 3px solid #83b3d3;
-}
-
-.range-input::-webkit-outer-spin-button,
-.range-input::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
 }
 
 .range-input-min {
@@ -876,7 +878,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 191px;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  padding-left: 40px;
+  padding-top: 56px;
 }
 
 .filter-button-submit {
@@ -1434,6 +1438,7 @@ body {
   width: 100%;
   grid-column: 1 / 4;
   grid-row: 1 / 2;
+  appearance: textfield;
 }
 
 .modal-input-number:hover {
